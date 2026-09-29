@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Fredrik Nilsson | Data Engineer & Backend Developer</title>
+  <meta name="description"
+    content="CV and professional portfolio of Fredrik Nilsson, a data engineer and backend developer specializing in Python, SQL, PL/SQL, Oracle, integrations, and test automation." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#occupational-summary">Career summary</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Data Engineering · Backend Development · Automation</p>
+        <div class="hero-title-row">
+          <h1>Fredrik Nilsson</h1>
+          <img class="profile-photo" src="Images/Fredrik.jpeg" alt="Fredrik Nilsson" />
+        </div>
+        <h2>Data Engineer / Backend Developer</h2>
+
+        <p class="hero-summary">
+          Software engineer with more than 20 years of experience in databases,
+          Python, integrations, backend development, test automation, and
+          enterprise software solutions.
+        </p>
+
+        <div class="button-row">
+          <a class="button button-primary" href="mailto:cfm.nilsson@outlook.com">
+            Contact me
+          </a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/fredrik-nilsson-68503751/"
+            target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <button id="download-pdf-btn" class="button button-primary" type="button">
+            Download PDF
+          </button>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <p><strong>Based in:</strong> Helsingborg, Sweden</p>
+        <p><strong>Focus:</strong> Data platforms, backend systems, integrations</p>
+        <p><strong>Core technologies:</strong> Python, SQL, PL/SQL, Oracle, Google Cloud</p>
+      </aside>
+    </div>
+  </header>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const pdfButton = document.getElementById('download-pdf-btn');
+
+      if (pdfButton) {
+        pdfButton.addEventListener('click', function () {
+          window.print();
+        });
+      }
+    });
+  </script>
+
+  <main class="container">
+    <section class="section" id="about">
+      <div class="section-heading">
+        <h2>Professional profile</h2>
+        <p>Technical experience across the full application lifecycle.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="panel">
+          <h3>About me</h3>
+          <p>
+            I am a software engineer with a strong technical interest and
+            experience from requirement analysis and specification through
+            development, testing, implementation and application maintenance.
+          </p>
+          <br />
+          <p>
+            My main areas are data engineering, database development, backend
+            systems, integrations, and test automation. I enjoy learning new
+            technologies and improving the quality, performance and
+            maintainability of software solutions.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h3>Expert areas</h3>
+          <ul class="skills">
+            <li>SQL</li>
+            <li>PL/SQL</li>
+            <li>Python</li>
+            <li>Pytest</li>
+            <li>Pytest-BDD</li>
+            <li>Oracle</li>
+            <li>Google BigQuery</li>
+            <li>Google Cloud</li>
+            <li>REST APIs</li>
+            <li>Database design</li>
+            <li>Integrations</li>
+            <li>Test automation</li>
+            <li>Requirements analysis</li>
+            <li>Backend development</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <h2>Professional experience</h2>
+        <p>Selected projects and responsibilities.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="experience-card">
+          <div class="experience-date">2023</div>
+          <div>
+            <h3>Data Engineer</h3>
+            <p class="experience-company">Knowit</p>
+            <p>
+              Created ELT/ETL pipelines from Splunk and BigQuery into BigQuery.
+              Implemented scheduled data copying, aggregation, and
+              transformation between projects for service-level and system
+              availability KPI reporting.
+            </p>
+            <p class="tools">
+              Tools: Python, Google BigQuery, Google Cloud Functions, Pub/Sub,
+              Cloud Scheduler, Secret Manager, VS Code
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2020–2022</div>
+          <div>
+            <h3>Test Automation Engineer</h3>
+            <p class="experience-company">Knowit</p>
+            <p>
+              Created a test framework supporting teams that wrote and automated
+              test scenarios for IKEA’s order management system. Helped reduce
+              release testing time from approximately two to three weeks to two
+              to three days.
+            </p>
+            <p class="tools">
+              Tools: Python, Pytest, Pytest-BDD, OpenShift, VS Code, Git,
+              GitHub, Confluence, Jira
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2019</div>
+          <div>
+            <h3>Automation Engineer</h3>
+            <p class="experience-company">Knowit</p>
+            <p>
+              Created a REST API for exposing valid test data to different teams
+              and developed a Slack bot for retrieving test data.
+            </p>
+            <p class="tools">
+              Tools: Python, Flask, Docker, OpenShift, VS Code, Git, GitHub,
+              Slack
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2017–2018</div>
+          <div>
+            <h3>Data Specialist / Coordinator</h3>
+            <p class="experience-company">Knowit</p>
+            <p>
+              Developed SQL scripts to help test-data teams select valid data
+              from systems connected to web backends, order management, and
+              warehouses. Coordinated data setup, validation, transfer, and
+              processing.
+            </p>
+            <p class="tools">
+              Tools: SQL, Python, VS Code, Git, GitHub, Confluence
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2016</div>
+          <div>
+            <h3>Java Developer</h3>
+            <p class="experience-company">Knowit</p>
+            <p>
+              Migrated an enterprise system from Struts to Struts2.
+            </p>
+            <p class="tools">Tools: Java, Struts2, Eclipse</p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2010–2012</div>
+          <div>
+            <h3>Lead Developer</h3>
+            <p class="experience-company">IKEA IT AB</p>
+            <p>
+              Designed and helped develop an integration solution between RIX
+              (IKEA’s centralized retail information system) and IBM WebSphere
+              Commerce. Responsible for solution design and technical
+              development leadership.
+            </p>
+            <p class="tools">
+              Tools: Java 1.4, Java 5, Spring, Hibernate, Toad for Oracle,
+              Eclipse, Rational Software Modeler
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2009</div>
+          <div>
+            <h3>Database Developer</h3>
+            <p class="experience-company">IKEA IT AB</p>
+            <p>
+              Refactored and optimized database business logic batches written
+              in PL/SQL. The result included thousands of fewer lines of code,
+              more than 50% improved performance, and better maintainability.
+            </p>
+            <p class="tools">Tools: SQL, PL/SQL, Toad for Oracle</p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2007–2008</div>
+          <div>
+            <h3>Backend Developer</h3>
+            <p class="experience-company">IKEA IT AB</p>
+            <p>
+              Developed the server and backend components of a sales-space
+              planning tool used when planning new stores or rebuilding
+              existing stores.
+            </p>
+            <p class="tools">
+              Tools: Java 1.4, Spring, Hibernate, Toad for Oracle
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">2001–2007</div>
+          <div>
+            <h3>Software Developer</h3>
+            <p class="experience-company">IKEA IT AB</p>
+            <p>
+              Worked on new development, further development, and second-level
+              support for backend solutions serving the old and new IKEA.com
+              websites.
+            </p>
+            <p class="tools">
+              Tools: Java 1.4, SQL Navigator, Toad for Oracle, Oracle Designer
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">1999–2000</div>
+          <div>
+            <h3>Software Developer</h3>
+            <p class="experience-company">IKEA IT AB</p>
+            <p>
+              Developed integration solutions between IKEA legacy systems and a
+              purchased marketing system.
+            </p>
+            <p class="tools">
+              Tools: SQL Navigator, Toad for Oracle, BusinessObjects Designer
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-date">1995–1998</div>
+          <div>
+            <h3>Software Developer</h3>
+            <p class="experience-company">IKEA IT AB</p>
+            <p>
+              Worked with development and second-level support for a system
+              handling budgeting, sales follow-up, pricing, and product
+              management.
+            </p>
+            <p class="tools">
+              Tools: Oracle ReportWriter, Oracle Forms, Toad for Oracle,
+              BusinessObjects Designer, SQL*Plus
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="occupational-summary">
+      <div class="section-heading">
+        <h2>Occupational experience summary</h2>
+      </div>
+
+      <div class="panel occupational-summary">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Organization</th>
+              <th scope="col">Years</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pure IT South AB</td>
+              <td>2024–2025</td>
+            </tr>
+            <tr>
+              <td>Knowit</td>
+              <td>2017–2024</td>
+            </tr>
+            <tr>
+              <td>IKEA IT AB</td>
+              <td>1995–2012</td>
+            </tr>
+            <tr>
+              <td>Lantmäteriet</td>
+              <td>1991–1992</td>
+            </tr>
+            <tr>
+              <td>Stadsingenjörskontoret Kristianstad Kommun</td>
+              <td>1989</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading">
+        <h2>Education and certifications</h2>
+      </div>
+
+      <div class="two-column">
+        <article class="education-item">
+          <div class="education-year">2016</div>
+          <h3>Fullstack Developer</h3>
+          <p>Lexicon Malmö</p>
+        </article>
+
+        <article class="education-item">
+          <div class="education-year">1995</div>
+          <h3>Systemvetarlinjen</h3>
+          <p>Lund University</p>
+        </article>
+      </div>
+
+      <br />
+
+      <div class="panel">
+        <h3>Certifications and training</h3>
+        <ul class="course-list">
+          <li>Google Cloud Certified Professional Data Engineer</li>
+          <li>Google Cloud Certified Associate Cloud Engineer</li>
+          <li>Fullstack development: Git, GitHub, SQL, PL/SQL, HTML5, CSS3, JavaScript, jQuery, Bootstrap, Java,
+            Scrum, ISTQB</li>
+          <li>IBM WebSphere Commerce V5.6 Implementation</li>
+          <li>webMethods Integration Workshop</li>
+          <li>Servlet and JSP Development for WebSphere</li>
+          <li>Programmering med Enterprise JavaBeans (SL-351)</li>
+          <li>Från strukturerad programmering till java programmering (SL-265)</li>
+          <li>BusinessObjects Designer</li>
+          <li>Oracle PL/SQL</li>
+          <li>Oracle SQL and SQL*Plus</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact">
+        <div>
+          <h2>Let’s connect</h2>
+          <p>
+            Available for opportunities involving data engineering, backend
+            development, integrations and automation.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:cfm.nilsson@outlook.com">Email</a>
+          <a href="https://www.linkedin.com/in/fredrik-nilsson-68503751/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Fredrik Nilsson
+  </footer>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 # CV Website Project  
-I have a CV in a PDF file and I wanted to use the same information to create a website and I haven't used AI that much, so I thought this would be a good candidate to test it out.  
+I have a CV in a PDF file and I wanted to use the same information to create a website. I haven't used AI that much before this project, so I thought this would be a good candidate to test it out.  
 
 I have used DuckDuckGo chat AI (https://duck.ai/) to help me with some Python scripts in the past and for this project I started by asking it to create a CV website based on my PDF file. It created a html file that I used as a starting point.  
 

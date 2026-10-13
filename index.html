@@ -29,7 +29,7 @@
         <p class="eyebrow">Data Engineering · Backend Development · Automation</p>
         <div class="hero-title-row">
           <h1>Fredrik Nilsson</h1>
-          <img class="profile-photo" src="Images/Fredrik.jpg" alt="Fredrik Nilsson" />
+          <img class="profile-photo" src="Files/Fredrik.jpg" alt="Fredrik Nilsson" />
         </div>
         <h2>Data Engineer / Backend Developer</h2>
 
@@ -47,9 +47,11 @@
             target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <button id="download-pdf-btn" class="button button-primary" type="button">
-            Download PDF
-          </button>
+          <a href="Files/FredrikNilssonCV.pdf" download="FredrikNilssonCV.pdf">
+            <button id="download-pdf-btn" class="button button-primary" type="button">
+              Download PDF
+            </button>
+          </a>
         </div>
       </div>
 
@@ -60,18 +62,6 @@
       </aside>
     </div>
   </header>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const pdfButton = document.getElementById('download-pdf-btn');
-
-      if (pdfButton) {
-        pdfButton.addEventListener('click', function () {
-          window.print();
-        });
-      }
-    });
-  </script>
 
   <main class="container">
     <section class="section" id="about">
